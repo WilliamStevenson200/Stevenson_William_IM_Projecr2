@@ -1,0 +1,103 @@
+* {
+margin: 0;
+padding: 0;
+
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+
+}
+
+.bg {
+ position: absolute;
+margin-left: -15px;
+border-style: none;
+height: 100%;
+    
+}
+
+.rocket {
+  position: absolute;
+    margin-top: 1000px;
+    padding-top:400px;
+width: 15%;
+margin-left: 620px;
+}
+
+.grass {
+margin-top: -70px;;
+position: absolute;
+width: 100%;
+
+}
+
+body {
+    background-color: #000000;
+}
+
+.bb {
+    width: 100%;
+    height: 400px;
+    background-color: #000000;
+position: absolute;
+margin-top: 850px;
+}
+
+.n1 {
+    width: 600px;
+    height: 5px;
+    background-color: ghostwhite;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 420px;
+}
+
+.n2 {
+    width: 600px;
+    height: 5px;
+    background-color: ghostwhite;
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 420px;
+}
+
+.t1 {
+    color: ghostwhite;
+    position: absolute;
+    font-size: 33px;
+    margin-top: 420px;
+    margin-left: 530px;
+}
+
+.t2 {
+    color: ghostwhite;
+    position: absolute;
+    font-size: 39px;
+    margin-top: 720px;
+    margin-left: 430px;
+}
+
+.t3 {
+    color: ghostwhite;
+    position: absolute;
+    font-size: 39px;
+    margin-top: 780px;
+    margin-left: 340px;
+}
+
+.link {
+   color: ghostwhite;
+    position: absolute;
+    font-size: 25px;
+    margin-top: 1380px;
+    margin-left: -500px;   
+}
+
+video {
+    margin-left: 410px;
+    margin-top: 900px;
+}

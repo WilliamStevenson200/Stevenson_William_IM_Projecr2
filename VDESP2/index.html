@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src=""></script>
+    <title></title>
+    <link rel="stylesheet" href="">
+    <script language="javascript" type="text/javascript" src="sketch.js">
+    </script>
+    <link rel="stylesheet" href="index.css">
+    
+    
+</head>
+
+<body>
+   <header>    
+    <img width="1450px" src="bg.jpg" class="bg" id="bg">
+       <div class = "bb"></div>
+    <img src="Rocket.png" class="rocket" id="rocket">
+    <img src="Grass.png" class="grass" id="grass">
+
+
+    
+    </header> 
+    
+    <script type="text/javascript">
+    
+    let rocket = document.getElementById("rocket");
+    let grass = document.getElementById("grass");
+
+        
+    window.addEventListener('scroll', function() {
+                            
+        var scrolling = window.scrollY;
+        
+        rocket.style.bottom = scrolling * 0.4 +'px';
+        grass.style.top = scrolling *0.1 + 'px';
+
+        
+        
+    })
+        
+    
+    </script> 
+    
+    <div class = "n1"></div>
+    <div class = "t1">Who Is William Stevenson?</div>
+    <div class = "n2"></div>
+    <div class = "t2">William Stevenson is a second year</div>
+    <div class = "t3">Interaction Design Student Enrolled At Sheridan.</div>
+    
+   <video width="620" height="440" controls>
+   <source src="Presentation.mov" type="video/mp4" class = "vid">
+   </video>
+    
+   <a href="https://xd.adobe.com/view/c74112f0-996d-41a8-a879-9ed569c5f6c1-9212/" class="link">Process Document/Presentation Slides</a>
+    
+    <br><br><br><br><br><br><br><br><br><br>
+    
+</body>
+</html>
